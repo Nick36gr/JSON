@@ -29,23 +29,8 @@ JSON
 }
  14. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON - cat > skills.json
 {
-    "Hard": ["GitHub",
-             "Terminal git",
-             "SQL",
-             "Jmeter",
-             "Postman",
-             "Charles",
-             "testing theory"]
-}
-
-{
-     "Soft": ["communication skills",
-              "ability to work in a team",
-              "emotional intelligence",
-              "the ability to process the information received",
-              "non-standard creative thinking",
-              "empathy",
-              "personal effectiveness"]
+    "skills": ["Hard skills",
+             "Soft skills"]
 }
  15. Отправить сразу 2 файла на внешний репозиторий. - git add preferences.json sklls.json
  16. На веб интерфейсе создать файл bug_report.json. 
