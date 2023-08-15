@@ -1,0 +1,57 @@
+JSON
+ 1. Создайте текстоовый файл как в первом ДЗ по Terminal.
+ 2. Сценарий перенесите в этот файл.
+ 3. На против каждого действия - напишите команду в GitBash
+ 4. Создать внешний репозиторий c названием JSON. - git init
+ 5. Клонировать репозиторий JSON на локальный компьютер. - git clone git@github.com:Nick36gr/Terminal.git
+ 6. Внутри локального JSON создать файл “new.json”. - touch new.json
+ 7. Добавить файл под гит. - git add new.json
+ 8. Закоммитить файл. - git commit -m "New"
+ 9. Отправить файл на внешний GitHub репозиторий. - git push
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON. cat >> new.json
+{ 
+    "last name": "Starostin",
+    "first name": "Nikolay",
+    "father name": "Vladimirovich",
+    "Age": 35,
+    "Pets": 0,
+    "Salary": 60.000
+}
+ 11. Отправить изменения на внешний репозиторий. git push origin main
+ 12. Создать файл preferences.json  -  cat > preferences.json
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+{
+    "film": "The Shawshank Redemption",
+    "series": "Ted Lasso",
+    "food": "pizza",
+    "season": "summer",
+    "country": "Italy"
+}
+ 14. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON - cat > skills.json
+{
+    "Hard": ["GitHub",
+             "Terminal git",
+             "SQL",
+             "Jmeter",
+             "Postman",
+             "Charles",
+             "testing theory"]
+}
+
+{
+     "Soft": ["communication skills",
+              "ability to work in a team",
+              "emotional intelligence",
+              "the ability to process the information received",
+              "non-standard creative thinking",
+              "empathy",
+              "personal effectiveness"]
+}
+ 15. Отправить сразу 2 файла на внешний репозиторий. - git add preferences.json sklls.json
+ 16. На веб интерфейсе создать файл bug_report.json. 
+1. Зайти в репозиторий JSON
+2. нажать на кнопку "add file"
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. - Нажать кнопку Commit changes
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON. - зайти в файл bag_report.json
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе. - Нажать кнопку Commit changes
+ 20. Синхронизировать внешний и локальный репозиторий JSON - git pull
