@@ -1,19 +1,4 @@
 {
-    "Hard": ["GitHub",
-             "Terminal git",
-             "SQL",
-             "Jmeter",
-             "Postman",
-             "Charles",
-             "testing theory"]
-}
-
-{
-     "Soft": ["communication skills",
-              "ability to work in a team",
-              "emotional intelligence",
-              "the ability to process the information received",
-              "non-standard creative thinking",
-              "empathy",
-              "personal effectiveness"]
+    "skills": "Hard skills",
+              "Soft skills"
 }
